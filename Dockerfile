@@ -9,6 +9,6 @@ RUN apk update && apk add --no-cache ffmpeg
 WORKDIR /usr/local/lib/node_modules/n8n
 
 # Instala el nodo comunitario
-RUN npm install @saitrogen/n8n-nodes-ffmpeg
+RUN npm i @saitrogen/n8n-nodes-ffmpeg
 
 USER node
